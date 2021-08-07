@@ -15,6 +15,8 @@ public class BackAndForwardButtonSimulation {
 		
 		driver.get("http://www.google.com");
 		System.out.println(driver.getTitle());
+                System.out.println(driver.getTitle());
+                
 		
 		driver.navigate().to("http://www.amazon.in");
 		System.out.println(driver.getTitle());
