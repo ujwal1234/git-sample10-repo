@@ -31,6 +31,11 @@ public class BrowserOptions {
 
 		String title = driver.getTitle();// getting the page title
 		System.out.println("page title is: " + title);
+                System.out.println("page title is: " + title);
+                System.out.println("page title is: " + title);
+                System.out.println("page title is: " + title);
+
+
 
 		// verification point//checkpoint/Act vs Exp result
 		if (title.equals("Google")) {
